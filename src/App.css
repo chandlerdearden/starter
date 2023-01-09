@@ -1,0 +1,163 @@
+/* --------- This is CSS Reset Code --------- */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* --------- Begin your CSS Below here --------- */
+* {
+  margin: 0;
+}
+
+/*---------------------Header------------------*/
+Header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 40px;
+  align-items: center;
+  background-color: #db7533;
+  color: white;
+  height: 60px;
+}
+Header h2 {
+  font-size: 25px;
+}
+Header button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin: 20px;
+}
+Header button:hover {
+  transform: scale(1.1);
+  color: black;
+}
+/*---------Footer---------------------*/
+
+footer {
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  bottom: 0px;
+  width: 100%;
+  height: 150px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3f3f3f;
+  /* padding-right: 60px; */
+  /* padding-left: 60px; */
+
+}
+footer h5 {
+  color: white;
+  font-size: 30px;
+}
+footer #social-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #578a8b;
+  margin: 10px;
+}
+footer .social-links:hover{
+  background-color: white;
+}
+
+footer #social-icons {
+  display: flex;
+}

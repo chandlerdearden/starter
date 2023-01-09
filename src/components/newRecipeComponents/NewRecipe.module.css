@@ -1,0 +1,113 @@
+h1 {
+    font-size: 40px;
+    margin: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+.form_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 78.15vh;
+}
+.input_container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* padding: 15px; */
+  height: 30px;
+  margin-top: 10px;
+}
+.input_container input {
+  height: 30px;
+  margin: 5px;
+  font-size: 25px;
+}
+.radio_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+.radio_container input {
+  display: flex;
+  height: 30px;
+  width: 30px;
+}
+.radio_container span {
+  display: flex;
+  height: 30px;
+  align-items: center;
+}
+.radio_container h5 {
+  margin: 5px;
+  font-size: 25px;
+}
+.form_container h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ingredients_container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+.ingredient_inputs input {
+  display: flex;
+  margin: 5px;
+  flex-direction: column;
+  height: 30px;
+  font-size: 20px;
+}
+li {
+  font-size: 20px;
+}
+.add_ing_btn {
+  display: flex;
+  justify-content: center;
+}
+.add_ing_btn button {
+  background-color: #db7533;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.instructions_input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+textarea {
+    width:629px;
+    height: 100px;
+    font-size: 25px;
+}
+
+.form_save_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.details_input_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.details_input_container input{
+    margin: 5px;
+    height: 30px;
+    font-size: 15px;
+}

@@ -1,0 +1,71 @@
+.ad_banner {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  color: white;
+  background-size: cover;
+}
+.ad_text {
+  width: 880px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+h1 {
+  --color: hsl(var(--primary-color), var(--l));
+  font-size: 64px;
+  color: var(--color);
+}
+
+h2 {
+  color: black;
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+.recipe_container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.recipe_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px;
+}
+
+.search_bar {
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #f6ded1;
+}
+.search_bar input {
+  border: none;
+  background-color: transparent;
+  height: 20px;
+  width: 250px;
+}
+
+.search_bar input:focus {
+  outline: none;
+}
+button {
+  height: 50px;
+  width: 150px;
+  background-color:#588b8b;
+  border: none;
+  color: white;
+  font-size: 25px;
+}
